@@ -18,11 +18,12 @@ Image composition involves seamlessly integrating given objects into a specific 
 ![framework](assets/framework.png)
 
 
-<!-- ## TODO:
+## TODO:
 - [ ] Release inference code
 - [ ] Release demo
+- [ ] Release benchmark
 - [ ] Release evaluation code and data 
--->
+
 
 
 </div>
