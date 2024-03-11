@@ -1,6 +1,6 @@
 # PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering
 
-Official implementation of [PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering]().
+Official implementation of [PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering](https://arxiv.org/pdf/2403.05053.pdf).
 
 > **PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering**<br>
 > Yibin Wang, Weizhong Zhang, Jianwei Zheng, and Cheng Jin <br>
