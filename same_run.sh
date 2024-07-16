@@ -1,0 +1,12 @@
+python scripts/main_tf_icon.py  --ckpt ./ckpt/v2-1_512-ema-pruned.ckpt      \
+                                --root ./inputs/Real-Real-mask       \
+                                --domain 'same'                   \
+                                --dpm_steps 20                    \
+                                --dpm_order 2                     \
+                                --scale 2                       \
+                                --tau_a 0.3                       \
+                                --tau_c 0.1                       \
+                                --outdir ./outputs              \
+                                --gpu cuda:0                      \
+                                --seed 3407 \
+                                --attn_mask True 
