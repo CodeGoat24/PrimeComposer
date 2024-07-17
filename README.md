@@ -1,6 +1,6 @@
 # [ACM MM2024] PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering
 
-Official implementation of [PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering]().
+Official implementation of [PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering](https://arxiv.org/abs/2403.05053).
 
 
 >**Abstract**: <br>
