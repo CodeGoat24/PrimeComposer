@@ -134,10 +134,10 @@ Our work is standing on the shoulders of giants. We thank the following contribu
 If you find PrimeComposer useful or relevant to your research, please kindly cite our paper:
 
 ```bibtex
-@article{primecomposer,
+@inproceedings{primecomposer,
   title={PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering},
   author={Wang, Yibin and Zhang, Weizhong and Zheng, Jianwei and Jin, Cheng},
-  journal={ACM MM},
+  booktitle={ACM MM},
   year={2024}
 }
 ```
