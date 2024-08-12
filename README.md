@@ -116,7 +116,7 @@ The complete PrimeComposer test benchmark is available at [here](https://pan.bai
 
 
 
-## 🌄 Additional Results
+## 🌄 Visual Results
 
 ![sketchy-comp](assets/baseline_compare1.png)
 
