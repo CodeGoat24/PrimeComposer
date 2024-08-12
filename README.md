@@ -1,9 +1,21 @@
-# [ACM MM2024] PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering
+<div align="center">
+<h1>PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering</h1>
 
-Official implementation of [PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering](https://arxiv.org/abs/2403.05053).
 
+[Yibin Wang](https://codegoat24.github.io)\*, [Weizhong Zhang](https://weizhonz.github.io/)\*, [Jianwei Zheng](https://zhengjianwei2.github.io/), [Cheng Jin](https://cjinfdu.github.io/)&#8224; 
 
->**Abstract**: <br>
+(*equal contribution, &#8224;corresponding author)
+
+[Fudan University]
+
+ACM MM2024
+
+<a href="https://arxiv.org/abs/2403.05053">
+<img src='https://img.shields.io/badge/arxiv-DreamText-blue' alt='Paper PDF'></a>
+
+</div>
+
+## 📖 Abstract
 Image composition involves seamlessly integrating given objects into a specific visual context. The current training-free methods rely on composing attention weights from several samplers to guide the generator. However, since these weights are derived from disparate contexts, their combination leads to coherence confusion in synthesis and loss of appearance information. These issues worsen with their excessive focus on background generation, even when unnecessary in this task. This not only slows down inference but also compromises foreground generation quality. Moreover, these methods introduce unwanted artifacts in the transition area. In this paper, we formulate image composition as a subject-based local editing task, solely focusing on foreground generation. At each step, the edited foreground is combined with the noisy background to maintain scene consistency. To address the remaining issues, we propose PrimeComposer, a faster training-free diffuser that composites the images by well-designed attention steering across different noise levels. This steering is predominantly achieved by our Correlation Diffuser, utilizing its self-attention layers at each step. Within these layers, the synthesized subject interacts with both the referenced object and background, capturing intricate details and coherent relationships. This prior information is encoded into the  attention weights, which are then integrated into the self-attention layers of the generator to guide the synthesis process. Besides, we introduce a Region-constrained Cross-Attention to confine the impact of specific subject-related words to desired regions, addressing the unwanted artifacts shown in the prior method thereby further improving the coherence in the transition area. Our method exhibits the fastest inference efficiency and extensive experiments demonstrate our superiority both qualitatively and quantitatively.
 
 ![teaser](assets/display.png)
@@ -20,7 +32,7 @@ Image composition involves seamlessly integrating given objects into a specific 
 
 <br>
 
-## Setup
+## 🔧 Setup
 
 Our codebase is built on [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion)
 and has shared dependencies and model architecture. An NVIDIA A100 40GB PCIe is recommended, though this may vary depending on the input samples (minimum 24 GB).
@@ -37,7 +49,7 @@ conda activate primecomposer
 Download the StableDiffusion weights from the [Stability AI at Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/blob/main/v2-1_512-ema-pruned.ckpt)
 (download the `sd-v2-1_512-ema-pruned.ckpt` file), and put it under `./ckpt` folder.
 
-## Running PrimeComposer
+## 🚀 Running PrimeComposer
 
 ### Data Preparation
 Our dataset are available in [PrimeComposer Benchmark](https://pan.baidu.com/s/1j1j3DbY9dz9Oouau6dfU-g?pwd=dym1)[code: dym1]. Please put input samples under `./inputs` directory. Each sample involves one background (bg), one foreground (fg), one segmentation mask for the foreground (fg_mask), and one user mask that denotes the desired composition location (mask_bg_fg). The input data structure is like this:
@@ -98,13 +110,13 @@ sh cartoon_run.sh
 ```
 
 
-## PrimeComposer Test Benchmark
+## 💻 Test Benchmark
 
-The complete PrimeComposer test benchmark is available in [here](https://pan.baidu.com/s/1j1j3DbY9dz9Oouau6dfU-g?pwd=dym1)[code: dym1]. It is preprocessed from [this OneDrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shilin002_e_ntu_edu_sg/EmmCgLm_3OZCssqjaGdvjMwBCIvqfjsyphjqNs7g2DFzQQ?e=JSwOHY). 
+The complete PrimeComposer test benchmark is available at [here](https://pan.baidu.com/s/1j1j3DbY9dz9Oouau6dfU-g?pwd=dym1)[code: dym1]. It is preprocessed from [this OneDrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shilin002_e_ntu_edu_sg/EmmCgLm_3OZCssqjaGdvjMwBCIvqfjsyphjqNs7g2DFzQQ?e=JSwOHY). 
 
 
 
-## Additional Results
+## 🌄 Additional Results
 
 ![sketchy-comp](assets/baseline_compare1.png)
 
@@ -127,10 +139,10 @@ The complete PrimeComposer test benchmark is available in [here](https://pan.bai
 </div>
 
 
-## Acknowledgments
+## 🙏 Acknowledgments
 Our work is standing on the shoulders of giants. We thank the following contributors that our code is based on: [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt) and [TF-ICON](https://github.com/Shilin-LU/TF-ICON). 
 
-## Citation
+## 🖊️ Citation
 If you find PrimeComposer useful or relevant to your research, please kindly cite our paper:
 
 ```bibtex
@@ -141,3 +153,7 @@ If you find PrimeComposer useful or relevant to your research, please kindly cit
   year={2024}
 }
 ```
+
+## 📧 Contact
+
+If you have any technical comments or questions, please open a new issue or feel free to contact [Yibin Wang](https://codegoat24.github.io).
