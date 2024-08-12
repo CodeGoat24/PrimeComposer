@@ -11,7 +11,7 @@
 ACM MM2024
 
 <a href="https://arxiv.org/abs/2403.05053">
-<img src='https://img.shields.io/badge/arxiv-DreamText-blue' alt='Paper PDF'></a>
+<img src='https://img.shields.io/badge/arxiv-Primecomposer-blue' alt='Paper PDF'></a>
 
 </div>
 
