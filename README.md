@@ -142,6 +142,10 @@ The complete PrimeComposer test benchmark is available at [here](https://pan.bai
 ## 🙏 Acknowledgments
 Our work is standing on the shoulders of giants. We thank the following contributors that our code is based on: [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), [Prompt-to-Prompt](https://github.com/google/prompt-to-prompt) and [TF-ICON](https://github.com/Shilin-LU/TF-ICON). 
 
+## 🎫 License
+For non-commercial academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
+For commercial use, please contact [Cheng Jin](jc@fudan.edu.cn).
+
 ## 🖊️ Citation
 If you find PrimeComposer useful or relevant to your research, please kindly cite our paper:
 
