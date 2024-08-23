@@ -113,6 +113,28 @@ sh cartoon_run.sh
 The complete PrimeComposer test benchmark is available at [here](https://pan.baidu.com/s/1j1j3DbY9dz9Oouau6dfU-g?pwd=dym1)[code: dym1]. It is preprocessed from [this OneDrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shilin002_e_ntu_edu_sg/EmmCgLm_3OZCssqjaGdvjMwBCIvqfjsyphjqNs7g2DFzQQ?e=JSwOHY). 
 
 
+## 🎫 License
+For non-commercial academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
+For commercial use, please contact [Cheng Jin](jc@fudan.edu.cn).
+
+## 🖊️ Citation
+If you find PrimeComposer useful or relevant to your research, please kindly cite our paper:
+
+```bibtex
+@inproceedings{primecomposer,
+  title={PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering},
+  author={Wang, Yibin and Zhang, Weizhong and Zheng, Jianwei and Jin, Cheng},
+  booktitle={ACM MM},
+  year={2024}
+}
+```
+
+## 📧 Contact
+
+If you have any technical comments or questions, please open a new issue or feel free to contact [Yibin Wang](https://codegoat24.github.io).
+
+## 🙏 Acknowledgments
+Our work is based on [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion), thanks to all the contributors!
 
 ## 🌄 Visual Results
 
@@ -135,27 +157,3 @@ The complete PrimeComposer test benchmark is available at [here](https://pan.bai
 ---
 
 </div>
-
-
-## 🙏 Acknowledgments
-Our work is based on [Stable-Diffusion](https://github.com/Stability-AI/stablediffusion). 
-
-## 🎫 License
-For non-commercial academic use, this project is licensed under [the 2-clause BSD License](https://opensource.org/license/bsd-2-clause). 
-For commercial use, please contact [Cheng Jin](jc@fudan.edu.cn).
-
-## 🖊️ Citation
-If you find PrimeComposer useful or relevant to your research, please kindly cite our paper:
-
-```bibtex
-@inproceedings{primecomposer,
-  title={PrimeComposer: Faster Progressively Combined Diffusion for Image Composition with Attention Steering},
-  author={Wang, Yibin and Zhang, Weizhong and Zheng, Jianwei and Jin, Cheng},
-  booktitle={ACM MM},
-  year={2024}
-}
-```
-
-## 📧 Contact
-
-If you have any technical comments or questions, please open a new issue or feel free to contact [Yibin Wang](https://codegoat24.github.io).
